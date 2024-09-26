@@ -9,6 +9,7 @@ public class CoinBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       // Rotar la moneda
         transform.Rotate(speedRotation * Time.deltaTime, Space.World);
     }
 }
